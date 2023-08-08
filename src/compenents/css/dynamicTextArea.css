@@ -43,6 +43,10 @@
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: relative; /* İkon konumlandırma için */
+    transition: all 1s ease;
+  } 
+  .text-area-container > *{
+      transition: all 1s ease;  
   }
   
   .choices-container {

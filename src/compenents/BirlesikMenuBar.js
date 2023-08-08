@@ -23,14 +23,14 @@ const BirlesikMenuBar = () => {
   return (
     <div className="app-container">
       <div className="left-container">
-        <button onClick={openModal}>
+        <button className='plusform-btn' onClick={openModal}>
           <img
-            style={{  width: '170px', height: '150px' }}
+            style={{  width: '150px', height: '140px' }}
             src={DnmLogo}
             alt=""
           />     
         </button>
-        <span style={{fontFamily:'sans-serif',fontSize:'20px',color:'lightgreen',marginLeft:'-60px'}}>
+        <span style={{fontFamily:'sans-serif',fontSize:'20px',color:'#7A9D54'}}>
 
        {/* <Modal
           isOpen={isModalOpen}
@@ -64,7 +64,7 @@ const BirlesikMenuBar = () => {
           </ul>
           <button onClick={closeModal}>Kapat</button>
         </Modal>*/}
-                  Dinamo Form
+                  <span> <b>DinamoPlus Form</b></span>
         </span>
         
       </div>

@@ -12,39 +12,34 @@ export const Profile = () => {
 
 <AvatarUploader/>
 <div className="user-info">
-
-<div className='text-container'>
-  <h2>222804009</h2>
-</div>
-
-<div className='text-container'>
-  <p>E-Posta :</p>
-  <p>banadisplayflexderler@birlesikyazilim.com</p>
-</div>
-
-<div className='text-container'>
-  <p>isim :</p>
-  <p>Fahri</p>
-</div>
-
-<div className='text-container'>
-  <p>Soyisim :</p>
-  <p>Gedik</p>
-</div>
-
-<div className='text-container'>
-  <p>Kurum Adı</p>
-  <p>Gedik University</p>
-</div>
-
-
-
+ 
+<table>
+<tbody>
+  <tr>
+    <th>Eposta : </th>
+    <td>banadisplayflexderler@birlesikyazilim.com</td>
+  </tr>
+  <tr>
+    <th>İsim : </th>
+    <td>Fahri</td>
+  </tr>
+  <tr>
+    <th>Soyisim : </th>
+    <td>Gedik</td>
+  </tr>
+  <tr>
+    <th>Kurum Adı : </th>
+    <td>Gedik</td>
+  </tr>
+  </tbody>
+</table>
 </div>
 
 </div>
-    <p style={{marginLeft:'100vh'}}>Kullanıcılar</p>
+<div>
+    <p style={{textAlign:'center'}}> <b>Kullanıcılar</b></p>
     <ExcelStyleTable/>
-
+</div>
     </div>
     
   )
