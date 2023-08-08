@@ -1,0 +1,39 @@
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .avatar-frame {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    /* İstediğiniz stil düzenlemelerini buraya ekleyebilirsiniz */
+  }
+  
+  .user-info {
+    margin-top: 0px;
+    text-align: center;
+  }
+  
+  .user-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .user-info p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+
+  .text-container{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+  }

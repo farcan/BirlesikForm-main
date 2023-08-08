@@ -1,0 +1,128 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .button-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-container button svg {
+    margin-right: 5px;
+  }
+  
+  .text-area-grid {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .text-area-container {
+    background-color: #f4f4f4;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative; /* İkon konumlandırma için */
+  }
+  
+  .choices-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .choices-container.hide {
+    display: none;
+  }
+  img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  
+  .fixed-size-textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  
+  .complete-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .complete-button svg {
+    margin-right: 5px;
+  }
+  
+  .test-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    margin-top: 5px; /* Ikonlar arası boşluk */
+  }
+  
+  /* ... Diğer stiller ... */
+
+/* İkonun stil */
+.publish-icon {
+ 
+  cursor: pointer;
+  font-size: 26px; /* İstediğiniz boyutu burada ayarlayabilirsiniz */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* İkonun açıklamasının stil */
+.publish-icon-tooltip {
+ 
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(3, 3, 3);
+  padding: 5px;
+  border-radius: 5px;
+  display: none;
+}
+.publish-icon:hover .publish-icon-tooltip {
+  display: block;
+}
+
+
+.submit-button-container {
+  margin-top: -53px;
+  margin-left: 500px;
+}
+
+
+.publish-comfirm-modal{
+}

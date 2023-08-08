@@ -1,0 +1,30 @@
+/* Geri butonunun container'ı */
+.back-button-container {
+  display: flex;
+  align-items: center;
+  /* Geri butonu ile diğer içerikler arasında boşluk bırakma */
+}
+
+/* Geri butonu stil */
+.back-button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  width: 100px; /* Geri butonu boyutu */
+  height: 100px;
+  
+}
+
+/* Geri butonu görselinin stil */
+.back-button img {
+  width: 100%; /* Geri butonu görselinin tam genişlikte olması */
+  height: 100%; /* Geri butonu görselinin tam yükseklikte olması */
+}
+
+/* Geri butonuna hover durumunda stil */
+.back-button:hover {
+  opacity: 0.8;
+}
+
+  

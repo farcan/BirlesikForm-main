@@ -1,0 +1,12 @@
+.video-container {
+    max-width: 700px; /* Video konteynerinin maksimum genişliği (örneğin 800px) */
+    margin: 0 auto; /* Ortalama için otomatik sol ve sağ kenar boşluğu */
+    padding: 20px; /* Gerekirse içerik ile kenar arasında boşluk ekleyebilirsiniz */
+    
+}
+  
+  .video-container video {
+    width: 100%; /* Videoyu konteynerin genişliğine göre otomatik boyutlandır */
+    height: auto; /* Orantılı olarak yüksekliği ayarla */
+  }
+  

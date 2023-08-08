@@ -1,0 +1,185 @@
+/* Container genel stil */
+.app-container {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+background-color: #F9F5F6;
+  text-decoration: none;
+  
+}
+body{
+  text-transform: none;
+  background-color: #EEEDED;
+}
+/* Sol taraftaki logo stil */
+.left-container {
+  display: flex;
+  align-items: center;
+}
+
+.left-container img {
+  width: 100px; /* Logo genişliği */
+  height: 100px; /* Logo yüksekliği */
+}
+
+/* Sağ taraftaki içeriklerin container stil */
+.right-container {
+}
+
+/* Her bir içeriğin container stil */
+.profile-container {
+  display: flex;
+  margin: 0;
+  
+   /* İçerikler arasındaki boşluk */
+}
+
+/* Profil logoları stil */
+.profile-container img {
+  width: 100px; /* Profil logolarının genişliği */
+  height: 100px; /* Profil logolarının yüksekliği */
+}
+
+/* BackKeyComponent stil */
+/* Örnek olarak:
+.profile-container .back-key {
+  // BackKeyComponent için stil ayarları
+}
+*/
+
+/* ExitButton stil */
+/* Örnek olarak:
+.profile-container .exit-btn {
+  // ExitButton için stil ayarları
+}
+*/
+
+/* Link stil (istediğiniz stil düzenlemelerini buraya ekleyebilirsiniz) */
+/* Örnek olarak:
+.profile-container a {
+  // Link için stil ayarları
+}
+*/
+
+/* BackKeyComponent stil */
+/* .profile-container .back-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  background-image: url('./backButton.png');
+  background-size: cover;
+}
+
+.profile-container .back-button:hover {
+  opacity: 0.8;
+}
+
+ExitButton stil
+.profile-container .exit-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  background-image: url('./Exit.png');
+  background-size: cover;
+}
+/* 
+.profile-container .exit-button:hover {
+  opacity: 0.8;
+}
+
+/* Link stil */
+/* .profile-container a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+} */
+
+/* .profile-container a:hover {
+  color: #007bff;
+}
+ */ 
+/* ... Diğer stiller ... */
+
+/* Sol taraftaki logo ve iconlar container stil */
+.left-container {
+  display: flex;
+  align-items: center;
+/*  position: relative;*/
+}
+
+.icon-container {
+/*  position: absolute;
+  bottom: 0px;
+  left: 50%;*/
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f3f3;
+  border-radius: 20px;
+
+  
+}
+
+
+.icon-container .icon {
+  margin-right: 40px;
+}
+
+.icon-container img {
+  width: 100px;
+  height: 100px;
+}
+
+.icon-name {
+  /*position: absolute;
+  /*bottom: 20px;
+  left: 48.2%;*/
+ /* transform: translateX(-50%);*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 0px;
+
+}
+.icon-name-padding {
+  padding: 42.1px;
+}
+.content {
+  height: 100px;
+  background-color: #f0f0f0; /* Gri renk */
+}
+
+.overlay {
+  background-color: rgba(204, 58, 58, 0.5); /* Saydam olmayan siyah renk */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Pop-up pencere stil */
+.modal {
+  background-color: white; /* Pencere rengi */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+.left-container button {
+  background-color: rgba(255, 255, 255, 0); /* Saydam beyaz arka plan */
+  border: none;
+  padding: 0;
+}

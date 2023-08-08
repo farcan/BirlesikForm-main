@@ -1,0 +1,17 @@
+/* Button stilleri */
+.green-innovative-button {
+    background-color: #28a745; /* Yeşil renk */
+    color: white;
+    border: none;
+    padding: 8px 16px; /* Düzeltilen padding değerleri */
+    border-radius: 6px; /* Düzeltilen border-radius değeri */
+    font-size: 14px; /* Düzeltilen font-size değeri */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .green-innovative-button:hover {
+    background-color: #218838; /* Koyu yeşil renk hover durumunda */
+  }
+  
